@@ -31,24 +31,40 @@ nav .container-fluid {
 
 /* Jumbotron */
 .display-5 {
-    font-size: 6rem;
+    font-size: 5.6rem;
     font-weight: bold;
     color: white;
 }
 .p-5 {
-    background-image: url(../images/teal-gray-color-scheme.png);
+    background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.py-5 p {
+    width: 60%;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .btn {
     border: solid white;
     color: white;
 }
 
-
-
-
-
+/* Cards - Work Section */
+.work-header {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+.work-section {
+    margin-top: 80px;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
 
 
 
