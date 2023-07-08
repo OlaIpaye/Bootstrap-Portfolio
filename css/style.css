@@ -1,0 +1,68 @@
+/* :root {
+    --main-background-color: #202022;
+    --text-color: white;
+    --link-hover-color: #00bb69;
+} */
+
+/* Logo styles */
+.container-fluid img {
+    width: 150px;
+    color: black;
+}
+
+/* Nav bar styles */
+.container-fluid {
+    color: white;
+}
+
+.navbar {
+    padding: 0;
+    color: white;
+}
+nav .container-fluid {
+    background-color: #EDEDED;
+    color: white;
+    padding: 10px;
+}
+.collapse {
+    display: flex;
+    justify-content: right;
+}
+
+/* Jumbotron */
+.display-5 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+.p-5 {
+    background-image: url(../images/teal-gray-color-scheme.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn {
+    border: solid white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
