@@ -60,14 +60,32 @@ nav .container-fluid {
 }
 .work-section {
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 .cardContainer {
     display: flex;
     justify-content: center;
 }
 
+ /* Tech Stack */
+/* .teck-stack-container {
+    margin-top: 80px;
+}
+.teck-heading {
+    text-align: center;
+}
+.teck-stack {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+} */
 
-
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
 
 
 
