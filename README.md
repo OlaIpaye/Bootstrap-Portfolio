@@ -43,6 +43,6 @@ Using Bootstrap, recreate your portfolio site with the following items:
 
 - The portfolio website will use bootstrap components such as navagation, menu, hero section with jumbotron, work section with grids, cards layout for each portfolio projects, skills, about and contact section.
 
-- The footer section should have links with hover effects, and should display a box-shadow upon hover.
+- The buttons should have links with hover effects, and should display a box-shadow upon hover.
 
 - How I will submit the portfolio website: Deploy to github pages.

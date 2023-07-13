@@ -39,6 +39,7 @@ nav .container-fluid {
     background-image: url(../images/02-hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
 }
 .py-5 p {
     width: 60%;
@@ -62,7 +63,6 @@ nav .container-fluid {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 
 
 /* Cards - Work Section */
@@ -107,25 +107,13 @@ nav .container-fluid {
 }
 
 
-/* .teck-stack-container {
-    margin-top: 80px;
-}
-.teck-heading {
-    text-align: center;
-}
-.teck-stack {
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
-} */
-
  /* Tech Stack */
 .container {
     display: flex;
     flex-direction: column;
     justify-content:center;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 40px auto;
     width: 50%;
 }
 /* .teck-stack-div {
@@ -152,13 +140,89 @@ nav .container-fluid {
     font-weight: bold;
 }
 
+.hearts {
+    color: red;
+    font-size: 30px;
+}
 
 
+/* Media Queries - 1004px & Below */
+
+@media only screen and (max-width: 1004px) {
+
+/* Nav bar styles */
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 
+/* Jumbotron */
+.display-5 {
+    font-size: 4.6rem;
+}
+
+.py-5 p {
+    width: 80%;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
 
 
+/* Cards - Work Section */
+.work-header {
+    font-size: 3rem;
+}
+
+.card {
+    margin-bottom: 20px;
+}
 
 
+/* Tech Stack */
+.container {
+    margin: 50px auto 40px auto;
+    width: 80%;
+}
 
 
+/* About me */
+.about-section {
+    width: 80%;
+}
+
+}
+
+
+/* Media Queries - 515px & Below */
+
+@media only screen and (max-width: 515px) {
+
+/* Jumbotron */
+.display-5 {
+    font-size: 3.6rem;
+}
+
+.py-5 p {
+    width: 90%;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Cards - Work Section */
+.work-header {
+    font-size: 2rem;
+}
+
+/* About me */
+.about-section p {
+    text-align: left;
+}
+
+
+footer .card-button {
+    width: 100%;
+}
+
+}
